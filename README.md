@@ -11,6 +11,8 @@ they have to be read out of Monado's C sources. This project is a minimal,
 working implementation of that side, so any program that knows where a body
 part is can drive trackers in VR on Linux.
 
+For more information about the protocol, please see the docs folder.
+
 It ships with one source: a CV1 rig on a Windows machine, which reads poses
 from the official Oculus runtime and broadcasts them over the network. That
 is how it was built, but the protocol layer does not care where poses come
