@@ -192,7 +192,7 @@ uses underneath.
 
 Known rough edges:
 
-- The CV1 source treats the tracked object specially. The runtime reports the
+- The CV1 source treats the vr object specially. The runtime reports the
   query for that device as `LostTracking` even while its pose is fresh, so
   there is no reliable visibility flag and the pose itself decides.
 - Only the roles listed in `sources/cv1_udp.py` are exercised. Others are
