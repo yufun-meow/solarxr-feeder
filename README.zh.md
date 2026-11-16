@@ -32,8 +32,8 @@ WiVRn 和 Monado 把身体追踪器当作 SolarXR 设备,并通过一对 Unix so
                                                                头显
 ```
 
-运行时会把追踪器放进**他自己的坐标系**,这和头显的坐标系不是一回事,
-所以需要一个变换把两者对起来。协议细节见
+运行时会把追踪器放进头显的追踪原点，这和数据源自己用的空间不是一回事，所以需要一个变换把两者对起来。
+协议细节见
 [docs/PROTOCOL.md](docs/PROTOCOL.md),CV1 包格式见
 [docs/PACKET.md](docs/PACKET.md)。
 
