@@ -124,9 +124,7 @@ like a door handle, through 180° or more, while also covering the room. The
 tool measures how far you turned it and refuses to save anything from less
 than `--min-turn` (90° by default).
 
-Layering note: hold the pair **together**, not at arm's length. The offset
-you cannot avoid is the distance between the two devices' centres, and it
-becomes a constant error in the result.
+Layering note: hold the pair tight **together** — don't let them separate. The offset you cannot avoid is the distance between the two devices' centres, and it becomes a constant error in the result — usually just a few centimetres, so it does not really matter.
 
 A healthy result:
 
