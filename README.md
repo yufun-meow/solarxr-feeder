@@ -32,7 +32,7 @@ The project comes with a built-in data source: the CV1 device group on a Windows
                                                                   headset
 ```
 
-The runtime places the trackers in its own coordinate space, which is not the same as the headset's, so a transform maps one onto the other.See [docs/PROTOCOL.md](docs/PROTOCOL.md) for the protocol notes
+The runtime places the trackers in the headset's tracking origin, which is a different space from whatever the source uses, so a transform maps one onto the other.See [docs/PROTOCOL.md](docs/PROTOCOL.md) for the protocol notes
 and [docs/PACKET.md](docs/PACKET.md) for the CV1 wire format.
 
 ## Requirements
