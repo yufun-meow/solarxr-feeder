@@ -99,7 +99,7 @@ class MyTrackers(TrackerSource):
 ```
 
 Returning `None` means "no fresh pose", and the service holds the previous
-one. A tracker that jumps to the floor whenever it is briefly occluded is
+one. A tracker that jumps to the （0,0,0） whenever it is briefly occluded is
 worse than one that stays put.
 
 Then add it to `build_source()` in `feeder.py` and set `--source`.
