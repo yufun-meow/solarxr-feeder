@@ -14,7 +14,7 @@ part is can drive trackers in VR on Linux.
 It ships with one source: a CV1 rig on a Windows machine, which reads poses
 from the official Oculus runtime and broadcasts them over the network. That
 is how it was built, but the protocol layer does not care where poses come
-from.
+from.Therefore, you can adapt it to anything that can track its own position—you just need to write a data source according to the tutorial below.
 
 [SolarXR]: https://github.com/SlimeVR/SolarXR-Protocol
 
