@@ -8,8 +8,7 @@ WiVRn and Monado treat body trackers as SolarXR devices, and they discover
 them over a pair of Unix sockets. Nothing outside SlimeVR implements the
 tracker side of that protocol, and the details are not documented anywhere -
 they have to be read out of Monado's C sources. This project is a minimal,
-working implementation of that side, so any program that knows where a body
-part is can drive trackers in VR on Linux.
+working implementation of that side, so any object that knows where itself is can drive trackers in VR on Linux.
 
 For more information about the protocol, please see the docs folder.
 
