@@ -85,14 +85,11 @@ source therefore treats the object as visible whenever it has a pose.
 A sender is free to set the bit anyway; the receiver ignores it for that
 device.
 
-## BTW....
-
-Does anyone else actually spin up a separate Windows machine just to track this thing? I tried a lot of CV1 tracking approaches on Linux and put a lot of effort into getting them to support vr object — they can track, but the quality is so bad it is unusable, so this is the only way. I open-sourced this so that you can write your own source for whatever you want to use as a tracker — so, over to you (laughs).
-
-
-
 ## Command line of the reference reader
 
 ```
 cv1-fbt-source.exe [--dest 192.168.1.50] [--port 39570] [--hz 240] [--quiet]
 ```
+## BTW....
+
+Does anyone else actually spin up a separate Windows machine just to track this thing? I tried a lot of CV1 tracking approaches on Linux and put a lot of effort into getting them to support vr object — they can track, but the quality is so bad it is unusable, so this is the only way. I open-sourced this so that you can write your own source for whatever you want to use as a tracker — so, over to you (laughs).
